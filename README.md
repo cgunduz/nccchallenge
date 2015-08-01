@@ -12,6 +12,8 @@
 
     Without the sanity check, tests would fail and the application would not be built. (surefire plugin)
 
+    -- Test --
+
     In order to test the app, here are the endpoints for RESTful communication :
 
     curl localhost:8080/isp/all
