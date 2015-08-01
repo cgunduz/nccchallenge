@@ -1,4 +1,4 @@
-package com.cemgunduz.cassandratemplate.configuration;
+package com.cemgunduz.nccchallenge.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -21,7 +21,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 @Configuration
 @PropertySource(value = {"classpath:mysql.properties"})
-@EnableJpaRepositories("com.cemgunduz.cassandratemplate.persistence.mysql")
+@EnableJpaRepositories("com.cemgunduz.nccchallenge.persistence.mysql")
 public class JpaConfig {
 
     @Autowired

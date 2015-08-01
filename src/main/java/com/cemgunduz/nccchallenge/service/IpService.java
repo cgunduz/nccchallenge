@@ -1,4 +1,4 @@
-package com.cemgunduz.cassandratemplate.service;
+package com.cemgunduz.nccchallenge.service;
 
 /**
  * Created by cem.gunduz on 01.08.2015.

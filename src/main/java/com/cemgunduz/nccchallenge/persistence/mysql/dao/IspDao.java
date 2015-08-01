@@ -1,6 +1,6 @@
-package com.cemgunduz.cassandratemplate.persistence.mysql.dao;
+package com.cemgunduz.nccchallenge.persistence.mysql.dao;
 
-import com.cemgunduz.cassandratemplate.persistence.mysql.models.Isp;
+import com.cemgunduz.nccchallenge.persistence.mysql.models.Isp;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

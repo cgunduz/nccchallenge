@@ -1,6 +1,6 @@
-package com.cemgunduz.cassandratemplate.presentation.controller;
+package com.cemgunduz.nccchallenge.presentation.controller;
 
-import com.cemgunduz.cassandratemplate.presentation.model.URI;
+import com.cemgunduz.nccchallenge.presentation.model.URI;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;

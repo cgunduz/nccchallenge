@@ -1,7 +1,7 @@
-package com.cemgunduz.cassandratemplate.service;
+package com.cemgunduz.nccchallenge.service;
 
-import com.cemgunduz.cassandratemplate.persistence.mysql.models.Isp;
-import com.cemgunduz.cassandratemplate.service.model.IspRegisteryResponse;
+import com.cemgunduz.nccchallenge.persistence.mysql.models.Isp;
+import com.cemgunduz.nccchallenge.service.model.IspRegisteryResponse;
 
 import java.util.List;
 

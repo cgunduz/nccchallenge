@@ -1,8 +1,8 @@
-package com.cemgunduz.cassandratemplate.presentation.controller.rest;
+package com.cemgunduz.nccchallenge.presentation.controller.rest;
 
-import com.cemgunduz.cassandratemplate.persistence.mysql.models.Isp;
-import com.cemgunduz.cassandratemplate.service.IspService;
-import com.cemgunduz.cassandratemplate.service.model.IspRegisteryResponse;
+import com.cemgunduz.nccchallenge.persistence.mysql.models.Isp;
+import com.cemgunduz.nccchallenge.service.IspService;
+import com.cemgunduz.nccchallenge.service.model.IspRegisteryResponse;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -37,6 +37,7 @@ public class IspController {
     @RequestMapping(value = "/register", method = RequestMethod.POST, headers = {"Content-type=application/json"})
     public IspRegisteryResponse registerIsp(@RequestBody Isp isp) throws Exception
     {
+        logger.trace("A new registry request arrived with isp name " + isp.getCompanyName());
         return ispService.registerIsp(isp);
     }
 

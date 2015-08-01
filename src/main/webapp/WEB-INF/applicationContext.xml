@@ -31,6 +31,4 @@
                   value="org.springframework.web.servlet.view.velocity.VelocityView" />
     </bean>
 
-    <import resource="classpath:spring/cassandraSpringConfig.xml"/>
-
 </beans>

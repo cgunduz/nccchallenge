@@ -1,4 +1,4 @@
-package com.cemgunduz.cassandratemplate.presentation.model;
+package com.cemgunduz.nccchallenge.presentation.model;
 
 /**
  * Created by cem.gunduz on 22.06.2015.

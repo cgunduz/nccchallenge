@@ -1,10 +1,10 @@
-package com.cemgunduz.cassandratemplate.service.impl;
+package com.cemgunduz.nccchallenge.service.impl;
 
-import com.cemgunduz.cassandratemplate.persistence.mysql.dao.IspDao;
-import com.cemgunduz.cassandratemplate.persistence.mysql.models.Isp;
-import com.cemgunduz.cassandratemplate.service.IpService;
-import com.cemgunduz.cassandratemplate.service.IspService;
-import com.cemgunduz.cassandratemplate.service.model.IspRegisteryResponse;
+import com.cemgunduz.nccchallenge.persistence.mysql.dao.IspDao;
+import com.cemgunduz.nccchallenge.persistence.mysql.models.Isp;
+import com.cemgunduz.nccchallenge.service.IpService;
+import com.cemgunduz.nccchallenge.service.IspService;
+import com.cemgunduz.nccchallenge.service.model.IspRegisteryResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

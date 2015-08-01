@@ -1,6 +1,6 @@
-package com.cemgunduz.cassandratemplate.service.impl;
+package com.cemgunduz.nccchallenge.service.impl;
 
-import com.cemgunduz.cassandratemplate.service.IpService;
+import com.cemgunduz.nccchallenge.service.IpService;
 import org.apache.log4j.Logger;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

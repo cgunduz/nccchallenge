@@ -1,12 +1,10 @@
-package com.cemgunduz.cassandratemplate.persistence.mysql.models;
+package com.cemgunduz.nccchallenge.persistence.mysql.models;
 
-import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Transient;
 
 /**
  * Created by cem.gunduz on 01.08.2015.
